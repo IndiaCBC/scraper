@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """Script to fetch coffee data from Bluetokai"""
-import requests
-from bs4 import BeautifulSoup
 from pprint import pprint
+from bs4 import BeautifulSoup
+import requests
 
 def coffee_data():
     """Get Coffee Details"""
