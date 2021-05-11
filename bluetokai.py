@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 
 def coffee_data():
-    """Get Cofee Details"""
+    """Get Coffee Details"""
     site = 'https://bluetokaicoffee.com'
     url = site + '/collections/coffee'
     coffees = []
